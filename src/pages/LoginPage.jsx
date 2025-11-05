@@ -66,7 +66,7 @@ const LoginPage = () => {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="admin@bloghub.com"
+                  placeholder="Email"
                   required
                   className="mt-2"
                 />
@@ -78,7 +78,7 @@ const LoginPage = () => {
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  placeholder="password123"
+                  placeholder="Password"
                   required
                   className="mt-2"
                 />
