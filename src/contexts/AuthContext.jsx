@@ -14,7 +14,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = (email, password) => {
     // This is a mock login. Replace with a real API call.
-    if (email === 'xdHoney' && password === '6facc33e8efe') {
+    if (email === 'xdHoney@' && password === '6facc33e8efe') {
       const userData = { email, name: 'Admin' };
       localStorage.setItem('blog_admin_user', JSON.stringify(userData));
       setUser(userData);
