@@ -64,12 +64,7 @@ const Header = () => {
                 </Button>
               </>
             ) : (
-              <Link to="/login">
-                <Button variant="outline" className="gap-2">
-                  <LogIn className="w-4 h-4" />
-                  Admin Login
-                </Button>
-              </Link>
+            
             )}
           </div>
         </div>
